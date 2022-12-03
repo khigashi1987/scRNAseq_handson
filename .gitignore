@@ -127,3 +127,10 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Intermediate files
+cache/
+data/retinal.h5ad
+models/marker_genes/Cell_marker_Mouse.xlsx
+data/.DS_Store
+models/.DS_Store
