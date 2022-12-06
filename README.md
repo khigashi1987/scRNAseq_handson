@@ -1,7 +1,7 @@
 # scRNAseq_handson
 PythonによるシングルセルRNA-seq解析。
 
-### 前半
+### 前半 (Python_scRNAseq_1.ipynb)
 
 1. Scanpy (前処理)
 2. scVI (深層生成モデルによるバッチ補正とデノイジング)
@@ -10,7 +10,7 @@ PythonによるシングルセルRNA-seq解析。
 
 [Google Colaboratoryバージョンの資料へのリンク]()
 
-### 後半
+### 後半 (Python_scRNAseq_2.ipynb)
 
 3. CellAssign (Cell typeの自動推定)
 4. scANVI (アトラスとの統合とラベル転移)
@@ -32,4 +32,4 @@ docker run \
     -v $(PWD):/work/scRNAseq_handson \
     pags_bioinfo2022:v2
 ```
-出力されたリンク（http://127.0.0.1:8888/...のほう）をブラウザで開く。
+出力されたリンク（ http://127.0.0.1:8888/ ...のほう）をブラウザで開く。
