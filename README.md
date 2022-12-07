@@ -1,4 +1,7 @@
 # scRNAseq_handson
+
+文責：東　光一（国立遺伝学研究所） mail: khigashi@nig.ac.jp
+
 PythonによるシングルセルRNA-seq解析。
 
 ### 前半 (Python_scRNAseq_1.ipynb)
@@ -8,7 +11,8 @@ PythonによるシングルセルRNA-seq解析。
 
 [HTML資料へのリンク](https://khigashi1987.github.io/scRNAseq_handson/Python_scRNAseq_1.html)
 
-[Google Colaboratoryバージョンの資料へのリンク]()
+[Google Colaboratoryバージョンの資料へのリンク](https://colab.research.google.com/github/khigashi1987/scRNAseq_handson/blob/main/colab/Python_scRNAseq_1_Colab.ipynb)
+
 
 ### 後半 (Python_scRNAseq_2.ipynb)
 
@@ -19,7 +23,7 @@ PythonによるシングルセルRNA-seq解析。
 
 [HTML資料へのリンク](https://khigashi1987.github.io/scRNAseq_handson/Python_scRNAseq_2.html)
 
-[Google Colaboratoryバージョンの資料へのリンク]()
+[Google Colaboratoryバージョンの資料へのリンク](https://colab.research.google.com/github/khigashi1987/scRNAseq_handson/blob/main/colab/Python_scRNAseq_2_Colab.ipynb)
 
 ## Dockerで実行する場合
 
@@ -30,6 +34,6 @@ cd scRNAseq_handson
 docker run \
     -p 8888:8888 \
     -v $(PWD):/work/scRNAseq_handson \
-    pags_bioinfo2022:v2
+    koichihigashi/pags_bioinfo2022:v2
 ```
 出力されたリンク（ http://127.0.0.1:8888/ ...のほう）をブラウザで開く。
