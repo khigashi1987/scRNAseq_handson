@@ -1,6 +1,6 @@
 # scRNAseq_handson
 
-文責：東　光一（国立遺伝学研究所） mail: khigashi@nig.ac.jp
+文責：東　光一（国立遺伝学研究所）
 
 PythonによるシングルセルRNA-seq解析。
 
