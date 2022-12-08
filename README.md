@@ -26,14 +26,17 @@ PythonによるシングルセルRNA-seq解析。
 [Google Colaboratoryバージョンの資料へのリンク](https://colab.research.google.com/github/khigashi1987/scRNAseq_handson/blob/main/colab/Python_scRNAseq_2_Colab.ipynb)
 
 ## Dockerで実行する場合
+以下、`${TAG}` の部分は、M1 Macなどarm64アーキテクチャの場合は `arm64` 、それ以外の場合（x86_64）は `v2` としてください。
+
+例： docker pull koichihigashi/pags_bioinfo2022:arm64
 
 ```bash
-docker pull koichihigashi/pags_bioinfo2022:v2
+docker pull koichihigashi/pags_bioinfo2022:${TAG}
 git clone https://github.com/khigashi1987/scRNAseq_handson.git
 cd scRNAseq_handson
 docker run \
     -p 8888:8888 \
     -v $(PWD):/work/scRNAseq_handson \
-    koichihigashi/pags_bioinfo2022:v2
+    koichihigashi/pags_bioinfo2022:${TAG}
 ```
-出力されたリンク（ http://127.0.0.1:8888/ ...のほう）をブラウザで開く。
+出力されたリンク（ http://127.0.0.1:8888/ ...のほう）をブラウザで開けば置いてあるipynb実行できます。
